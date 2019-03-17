@@ -6,7 +6,7 @@ Using the app will generate CSS classes for color, background-color, and border 
 the classes used in Tailwind CSS.
 
 ## View on CodeSandbox
-https://codesandbox.io/s/github/skegel13/JSONtoCSS
+https://codesandbox.io/embed/lr5709wnq?autoresize=1&fontsize=14&hidenavigation=1&view=preview
 
 ## TODO
 Add support for converting Tailwind color configuration objects to CSS.
