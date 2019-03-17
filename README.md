@@ -1,2 +1,0 @@
-# JSONtoCSS
-Created with CodeSandbox
