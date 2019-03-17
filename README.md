@@ -1,6 +1,6 @@
 # JSONtoCSS
 
-This is a simple application to convert the JSON export from Palettte App in Tailwind utility style CSS. 
+This is a simple application to convert the JSON export from the [Palettte App](https://palettte.app) to Tailwind utility style CSS. 
 
 Using the app will generate CSS classes for color, background-color, and border color in a fashion similar to
 the classes used in Tailwind CSS.
