@@ -118,23 +118,23 @@ export default {
 
       carry += `
 .bg-${name},
-.hover:bg-${name}:hover,
-.focus:bg-${name}:focus {
+.hover\\:bg-${name}:hover,
+.focus\\:bg-${name}:focus {
   background-color: #${color};
 }
 `;
 
       carry += `
 .border-${name},
-.hover:border-${name}:hover,
-.focus:border-${name}:focus {
+.hover\\:border-${name}:hover,
+.focus\\:border-${name}:focus {
   border-color: #${color};
 }
 `;
       carry += `
 .text-${name},
-.hover:text-${name}:hover,
-.focus:text-${name}:focus {
+.hover\\:text-${name}:hover,
+.focus\\:text-${name}:focus {
   color: #${color};
 }
 `;
