@@ -44,7 +44,7 @@
         <pre class="bg-grey-lighter border h-64 overflow-auto p-4 rounded shadow-inner text-sm w-full"
         @click="copyOutput"
              >
-          {{ convertedCss }} 
+          {{ convertedCss }}
         </pre>
         <button
           class="absolute bg-blue-lightest hover:bg-blue-lighter border mr-5 mt-2 px-2 py-1 pin-r pin-t rounded text-blue-dark text-xs"
@@ -118,7 +118,7 @@ export default {
 
       carry += `
 .bg-${name},
-.hover:bg-${name}:hover, 
+.hover:bg-${name}:hover,
 .focus:bg-${name}:focus {
   background-color: #${color};
 }
@@ -126,14 +126,14 @@ export default {
 
       carry += `
 .border-${name},
-.hover:border-${name}:hover, 
+.hover:border-${name}:hover,
 .focus:border-${name}:focus {
   border-color: #${color};
 }
 `;
       carry += `
-.text-${name} {
-.hover:text-${name}:hover, 
+.text-${name},
+.hover:text-${name}:hover,
 .focus:text-${name}:focus {
   color: #${color};
 }
